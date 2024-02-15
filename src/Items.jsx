@@ -1,7 +1,5 @@
-//import { useQuery } from "@tanstack/react-query";
-import { useFetchTask } from "./ReactQueryCustomHooks";
+import { useFetchTask } from "./reactQueryCustomHooks";
 import SingleItem from "./SingleItem";
-//import customFetch from "./utils";
 
 const Items = () => {
   const { isError, isLoading, data } = useFetchTask();
